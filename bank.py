@@ -7,4 +7,4 @@ x = int(input("Enter amount1(in cent):"))
 
 y = int( input("Enter amount2(in cent):"))
 sum = sum([x,y])/100
-print("Total: $", sum)
+print("Total: €", sum)
