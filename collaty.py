@@ -21,10 +21,10 @@ while (number != 1):
     continue
     print [number]
 
-'''
+
 #if integer is one (end)
 if number == 1: 
     break
 else:
     print("End")
-    '''
+    
