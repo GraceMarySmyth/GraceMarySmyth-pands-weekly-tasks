@@ -10,6 +10,6 @@ sum = sum([x,y])//100 # // gives the int division
 remainder = sum%100    # % gives the remainder
 
 
-print(("Total: €", sum,remainder).format x, .y, sum, remainder))
+print(("Total: €", sum,remainder).format x, .y, sum, remainder)
 
 
