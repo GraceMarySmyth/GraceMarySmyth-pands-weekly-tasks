@@ -8,4 +8,4 @@ account = input("account number: ")
 
 
 print("For security reasons your account number will be displayed as: ")
-print("XXXXXX",(account[6:10]))
+print("XXXXXX",(account[-4:]))
