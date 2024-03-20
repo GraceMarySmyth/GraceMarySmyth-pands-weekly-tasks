@@ -19,7 +19,7 @@ else:
 # A while loop
 while (number != 1):
     continue
-    print [number]
+    print[number]
 
 
 #if integer is one (end)
