@@ -7,9 +7,9 @@ import datetime
 today = datetime.datetime.today()
 
 if today.weekday() ==4:
-    print("It is friday, Almost the weekend!!")
+    print("It is friday, Almost the weekend, yay!!")
 elif today.weekday() == 5 or today.weekday() == 6:
-    print("Horray! Its the weekend!!")
+    print("It is the weekend, yay!!")
 else:
     days_to_weekend = 4 - today.weekday()
-    print(f"{days_to_weekend} days until the weekend.")
+    print(f"{days_to_weekend} days until the weekend. Unfortunately today is a weekday")
