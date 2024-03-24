@@ -8,23 +8,17 @@ number = int(input("Enter an integer: "))
 evennum = number/2
 oddnum = number*3 
 
+while (number != 1):
 # If integer is even, divide by 2
-if (number%2==0):
-    print(int(evennum))
+    if number%2==0:
+        print(int(evennum))
 
 # If integer is odd, multiply by 3
-else: 
-    print(int(oddnum))
-
-# A while loop
-while (number != 1):
-    continue
-    print[number]
+    elif number%2==1:
+         print(int(oddnum))
 
 
 #if integer is one (end)
-if number == 1: 
-    break
-else:
-    print("End")
+    if number == 1:
+        print("End")
     
