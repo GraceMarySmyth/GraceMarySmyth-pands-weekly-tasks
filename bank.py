@@ -5,9 +5,9 @@
 
 x = int(input("Enter amount1(in cent):"))
 
-y = int( input("Enter amount2(in cent):"))
+y = int(input("Enter amount2(in cent):"))
 euro = sum([x,y])//100 # // gives the int division
-cent = euro%100   # % gives the remainder
+cent = sum([x,y])%100   # % gives the remainder
 
 
 print("Total: €", euro,".",cent)
