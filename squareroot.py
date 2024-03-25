@@ -3,7 +3,7 @@
 # Author: Grace Mary Smyth
 # References: geeksforgeeks.org, stack overflow, https://patrickwalls.github.io/mathematicalpython/root-finding/newton/
 
-
+# Creating a function called sqrt
 def sqrt(number):
     root = number / 2.0
     while abs(root * root - number) > 0.0001:
