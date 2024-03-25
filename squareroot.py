@@ -5,10 +5,10 @@
 
 
 def sqrt(number):
-    guess = number / 2.0
-    while abs(guess * guess - number) > 0.0001:
-        guess = (guess + number / guess) / 2
-    return guess
+    root = number / 2.0
+    while abs(root * root - number) > 0.0001:
+        root = (root + number / root) / 2
+    return root
 
 # Taking input from the user
 number = float(input("Enter a positive number: "))
