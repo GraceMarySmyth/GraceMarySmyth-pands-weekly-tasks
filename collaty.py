@@ -5,17 +5,17 @@
 # References: pythongeeks.org, w3schools.com
 
 number = int(input("Enter an integer: "))
-evennum = number/2
-oddnum = number*3 
 
 while (number != 1):
 # If integer is even, divide by 2
     if number%2==0:
-        print(int(evennum))
+        number = number//2
+        print(int(number))
 
 # If integer is odd, multiply by 3
-    elif number%2==1:
-         print(int(oddnum))
+    else: 
+         number = number * 3
+         print(int(number))
 
 
 #if integer is one (end)
